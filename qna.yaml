@@ -84,6 +84,6 @@ seed_examples:
 task_description: 'Provide detailed information on Thought Machine, a fintech company specializing in modernizing banking infrastructure with its Vault platform.'
 document:
   repo: https://github.com/vitalijneverkevic/thoughtmachine.git
-  commit: 8bd9220c616afe24b9673d94ec1adce85320809c
+  commit: 16f33fa6a6e2cd75a2cc5b3bd756b4a96ef84899
   patterns:
     - data.md
