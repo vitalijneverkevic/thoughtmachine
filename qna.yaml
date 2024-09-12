@@ -4,9 +4,9 @@ created_by: VitalijNeverkevic
 seed_examples:
   - context: |
       Thought Machine is a fintech company focused on modernizing banking infrastructure through its core banking platform, Vault.
-      Founded in 2014 by Paul Taylor, a former Google engineer. 
+      Founded in 2014 by Paul Taylor, a former Google engineer.
       Goal: Transition banks from legacy systems to modern, cloud-based infrastructure.
-      Thought Machine has a global presence with headquarters in the UK and operations across Europe, Asia, North America, Australasia, and the Middle East. 
+      Thought Machine has a global presence with headquarters in the UK and operations across Europe, Asia, North America, Australasia, and the Middle East.
       It has been awarded as the best place to work in New York City and is named among the world's most innovative fintechs.
       Thought Machine's mission is to modernize banking through cutting-edge technology, eliminate legacy infrastructure problems, and run the world's banks using the best software practices.
     questions_and_answers:
@@ -36,7 +36,7 @@ seed_examples:
       Vault Core APIs expose all functionality through standard APIs for real-time access, integration, and granular control.
       Vault Core and its Universal Product Engine supports multi-currency accounts, bundled products, and legacy platform migration, allowing for safe customer migration without disruption.
       Vault Core can be deployed in public, private, or hybrid cloud environments, with a SaaS option for fully managed cloud infrastructure.
-      Vault is Thought Machine’s flagship core banking platform which is highly configurable and cloud-native. 
+      Vault is Thought Machine’s flagship core banking platform which is highly configurable and cloud-native.
       It uses smart contracts to define banking product logic and is API-driven, enabling seamless integration with other services.
       Smart contracts in Vault Core provide customizable logic for rapid innovation and design of new financial products without platform dependence, with a pre-built Product Library.
     questions_and_answers:
@@ -69,7 +69,7 @@ seed_examples:
         answer: |
           They provide customizable logic for rapid innovation and design of new financial products without platform dependence.
   - context: |
-      Banks can simulate financial product performance before launch, enhancing customer experience 
+      Banks can simulate financial product performance before launch, enhancing customer experience
       by allowing them to simulate the performance of the products they are purchasing.
     questions_and_answers:
       - question: |
@@ -77,7 +77,7 @@ seed_examples:
         answer: |
           To allow banks and customers to simulate financial product performance before launch.
   - context: |
-      SaaS deployment is popular among agile banks and fintechs, while bank-hosted options include public, private, 
+      SaaS deployment is popular among agile banks and fintechs, while bank-hosted options include public, private,
       and hybrid clouds, supported on platforms like Azure, AWS, GCP, and Red Hat OpenShift.
     questions_and_answers:
       - question: |
@@ -85,7 +85,7 @@ seed_examples:
         answer: |
           SaaS for agile banks and fintechs, and bank-hosted options include public, private, and hybrid clouds.
   - context: |
-      Paul Taylor, founder and CEO of Thought Machine, is a former Google engineer with expertise in AI, speech technology, and machine learning. 
+      Paul Taylor, founder and CEO of Thought Machine, is a former Google engineer with expertise in AI, speech technology, and machine learning.
       He has founded two companies and holds a PhD in AI with teaching positions at Edinburgh and Cambridge Universities.
     questions_and_answers:
       - question: |
