@@ -93,8 +93,8 @@ seed_examples:
         answer: |
           By allowing customers to preview how financial products will perform.
   - context: |
-      SaaS deployment is popular among agile banks and fintechs. 
-      Bank-hosted options include public, private, and hybrid clouds. 
+      SaaS deployment is popular among agile banks and fintechs.
+      Bank-hosted options include public, private, and hybrid clouds.
       Supported platforms are like Azure, AWS, GCP, and Red Hat OpenShift.
     questions_and_answers:
       - question: |
@@ -116,7 +116,7 @@ seed_examples:
       - question: |
           What are the benefits of using hybrid clouds for bank-hosted deployments?
         answer: |
-          Hybrid clouds offer a blend of security, flexibility, and efficiency, allowing banks to keep sensitive data in private clouds.
+          Hybrid clouds offer great security, flexibility and agility.
   - context: |
       Paul Taylor is a founder and CEO of Thought Machine.
       Paul Taylor is a former Google engineer with expertise in AI.
