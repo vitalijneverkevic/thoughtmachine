@@ -31,7 +31,7 @@ seed_examples:
         answer: |
           To modernize banking through cutting-edge technology and eliminate problems caused by legacy infrastructure.
   - context: |
-      Vault Core’s Ledger provides real-time data management. 
+      Vault Core’s Ledger provides real-time data management.
       Ledger connectivity in Vault Core offers robust real-time reporting.
       Vault Core APIs expose all functionality through standard APIs.
       Vault Core and its Universal Product Engine supports multi-currency accounts.
@@ -93,7 +93,7 @@ seed_examples:
       - question: |
           What is Paul Taylor's background?
         answer: |
-          Paul Taylor is a former Google engineer with a PhD in AI and expertise in speech technology and machine learning.
+          Paul Taylor is a former Google engineer with a PhD in AI.
 document_outline: |
   Detailed breakdown and analysis of Thought Machine's Vault platform and its global operations.
 document:
