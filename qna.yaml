@@ -5,7 +5,6 @@ seed_examples:
   - context: |
       Thought Machine is a fintech company focused on modernizing banking infrastructure through its core banking platform, Vault.
       Founded in 2014 by Paul Taylor, a former Google engineer. Goal: Transition banks from legacy systems to modern, cloud-based infrastructure.
-    questions_and_answers:
       - question: |
           What is the primary goal of Thought Machine?
         answer: |
