@@ -69,21 +69,54 @@ seed_examples:
         answer: |
           They provide customizable logic for rapid innovation.
   - context: |
-      Banks can simulate financial product performance before launch, enhancing customer experience
-      by allowing them to simulate the performance of the products they are purchasing.
+      Banks can simulate financial product performance before launch.
+      Banks can simulate the performance of the products they are purchasing.
     questions_and_answers:
       - question: |
           What is the purpose of simulation in Vault Core?
         answer: |
           To allow banks and customers to simulate financial product performance before launch.
+      - question: |
+          Who can perform simulations on Vault Core?
+        answer: |
+          Both banks and their customers can perform simulations on Vault Core to assess financial product performance.
+      - question: |
+          What benefits do simulations offer to banks before launching a product?
+        answer: |
+          Simulations allow banks to forecast and evaluate the performance of financial products.
+      - question: |
+          Can customers simulate the performance of financial products they are considering purchasing?
+        answer: |
+          Yes, customers can simulate the performance of financial products they are considering.
+      - question: |
+          How does simulating product performance enhance customer experience?
+        answer: |
+          By allowing customers to preview how financial products will perform.
   - context: |
-      SaaS deployment is popular among agile banks and fintechs, while bank-hosted options include public, private,
-      and hybrid clouds, supported on platforms like Azure, AWS, GCP, and Red Hat OpenShift.
+      SaaS deployment is popular among agile banks and fintechs. 
+      Bank-hosted options include public, private, and hybrid clouds. 
+      Supported platforms are like Azure, AWS, GCP, and Red Hat OpenShift.
     questions_and_answers:
       - question: |
           What are the deployment models for Vault Core?
         answer: |
           SaaS for agile banks and fintechs, and bank-hosted options include public, private, and hybrid clouds.
+      - question: |
+          Why is SaaS deployment popular among agile banks and fintechs?
+        answer: |
+          SaaS deployment is favored for its ease of management and scalability.
+      - question: |
+          What types of cloud environments are supported for bank-hosted options?
+        answer: |
+          Bank-hosted options can be deployed in public, private, and hybrid cloud environments.
+      - question: |
+          What cloud platforms support the deployment of Vault Core?
+        answer: |
+          Vault Core can be deployed on major cloud platforms such as Azure, AWS, GCP, and Red Hat OpenShift.
+      - question: |
+          What are the benefits of using hybrid clouds for bank-hosted deployments?
+        answer: |
+          Hybrid clouds offer a blend of security, flexibility, and efficiency, allowing banks to keep sensitive data in private clouds.
   - context: |
       Paul Taylor is a founder and CEO of Thought Machine.
       Paul Taylor is a former Google engineer with expertise in AI.
@@ -94,6 +127,22 @@ seed_examples:
           What is Paul Taylor's background?
         answer: |
           Paul Taylor is a former Google engineer with a PhD in AI.
+      - question: |
+          How many companies has Paul Taylor founded?
+        answer: |
+          Paul Taylor has founded two companies.
+      - question: |
+          What role does Paul Taylor hold at Thought Machine?
+        answer: |
+          Paul Taylor is the founder and CEO of Thought Machine.
+      - question: |
+          What is Paul Taylor's educational background?
+        answer: |
+          Paul Taylor holds a PhD in AI and has held teaching positions at both Edinburgh and Cambridge Universities.
+      - question: |
+          In what field did Paul Taylor work at Google?
+        answer: |
+          Paul Taylor worked as an engineer in AI at Google.
 document_outline: |
   Detailed breakdown and analysis of Thought Machine's Vault platform and its global operations.
 document:
