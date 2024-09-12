@@ -1,87 +1,112 @@
-created_by: VitalijNeverkevic
+version: 3
 domain: fintech
+created_by: VitalijNeverkevic
 seed_examples:
-  - question: Who founded Thought Machine and in what year?
-    answer: Thought Machine was founded in 2014 by Paul Taylor, a former Google engineer.
-  - question: What is the primary goal of Thought Machine?
-    answer: The primary goal of Thought Machine is to move banks away from outdated, legacy systems to a more modern, efficient, and flexible cloud-based system.
-  - question: What is Vault, and how does it function?
-    answer: Vault is a highly configurable and flexible core banking platform that operates using smart contracts to define the logic and operations of banking products, enabling modern banking applications over the cloud.
-  - question: What are the advantages of Thought Machine being cloud-native?
-    answer: Being cloud-native makes the Vault platform scalable and resilient, reducing operational costs for banks and increasing agility in deploying new services.
-  - question: How do smart contracts benefit banks using the Vault platform?
-    answer: Smart contracts within Vault handle business logic for banking functions, allowing banks to rapidly innovate and customize products more efficiently than traditional systems.
-  - question: What international presence does Thought Machine have?
-    answer: Thought Machine has expanded internationally, working with major banks across continents including Europe, Asia, North America, Australasia, and the Middle East, as well as in countries like Mexico, Chile, South Korea, Israel, and Guatemala.
-  - question: What accolades has Thought Machine received?
-    answer: Thought Machine was named the best place to work in New York City by Crain's and by American Banker, and one of the world's most innovative fintechs by Global Finance Magazine. It was also confirmed as one of Europe's fastest-growing companies by the Financial Times and Statista.
-  - question: What is the primary focus of Thought Machine as a company?
-    answer: Thought Machine specializes in modernizing banking infrastructure through its core banking platform, Vault.
-  - question: What is the name of the core banking platform developed by Thought Machine?
-    answer: The core banking platform developed by Thought Machine is called Vault.
-  - question: In what year was Thought Machine founded, and who founded it?
-    answer: Thought Machine was founded in 2014 by Paul Taylor, a former Google engineer.
-  - question: What is the primary goal of Thought Machine in relation to banking systems?
-    answer: The primary goal of Thought Machine is to transition banks from outdated, legacy systems to modern, efficient, cloud-based systems.
-  - question: What are the configurability and flexibility features of Vault?
-    answer: Vault is highly configurable and flexible, allowing for the deployment of modern banking applications over the cloud.
-  - question: How does Vault utilize smart contracts in its operation?
-    answer: Vault operates using smart contracts to define the logic and operations of banking products.
-  - question: What are the scalability and resilience features of Vault due to its cloud technology?
-    answer: Vault is built entirely on cloud technology, making it scalable and resilient.
-  - question: How does Vault's API-first design benefit its integration with other financial services?
-    answer: Vault's design is API-first, facilitating seamless integration with other financial services and enabling banks to offer a more interconnected service experience to their customers.
-  - question: In which continents does Thought Machine operate?
-    answer: Thought Machine has an international presence, working with major banks across different continents.
-  - question: How does Thought Machine enhance the agility, security, and customer focus of financial institutions?
-    answer: Thought Machine focuses on making financial institutions more agile, secure, and customer-focused by leveraging cloud technology and innovative software architecture.
-  - question: When was the core banking engine, Vault Core, launched?
-    answer: The core banking engine, Vault Core, was launched in the spring of 2015.
-  - question: How many people does Thought Machine employ, and in which regions?
-    answer: Thought Machine has expanded to over 500 people across Europe, Asia, North America, Australasia, and the Middle East.
-  - question: In which new territories has Thought Machine won clients?
-    answer: Thought Machine has won clients in new territories including Mexico, Chile, South Korea, Israel, and Guatemala.
-  - question: Which publications have recognized Thought Machine as a top workplace?
-    answer: Thought Machine has been named the best place to work in New York City by Crain's and by American Banker.
-  - question: What accolade did Thought Machine receive from Global Finance Magazine?
-    answer: Global Finance Magazine named Thought Machine one of the world's most innovative fintechs.
-  - question: What recognition did Thought Machine receive from the Financial Times and Statista?
-    answer: The Financial Times and Statista confirmed Thought Machine as one of Europe's fastest-growing companies.
-  - question: Who is the CEO of Thought Machine and what is his background?
-    answer: Paul Taylor is the CEO of Thought Machine, a former Google engineer who founded the company in 2014.
-  - question: How extensive is Thought Machine's presence globally in terms of countries and client base?
-    answer: Thought Machine is present in 18 countries with a client list of more than a dozen Tier 1 banks worldwide.
-  - question: What were Paul Taylor's achievements before founding Thought Machine?
-    answer: Before founding Thought Machine, Paul Taylor launched two companies, the second of which was acquired by Google in 2010.
-  - question: What role did Paul Taylor have at Google?
-    answer: At Google, Paul Taylor led the text-to-speech team.
-  - question: What are Paul Taylor's academic qualifications and teaching experience?
-    answer: Paul Taylor holds a PhD in AI and has held teaching positions at Edinburgh and Cambridge Universities.
-  - question: What is Thought Machine's approach towards legacy banking technology?
-    answer: Thought Machine aims to eradicate outdated legacy technology in the banking industry.
-  - question: What capabilities does the Universal Product Engine of Vault Core provide?
-    answer: Vault Core's Universal Product Engine provides unique flexibility and control in the design and build of new financial products using smart contracts.
-  - question: What types of financial products can be manufactured using Vault Core?
-    answer: Any financial product can be manufactured using Vault Core, including innovative and legacy products.
-  - question: What are the features of smart contracts in Vault Core?
-    answer: Smart contracts in Vault Core provide complete control over product logic and are written in developer-friendly code.
-  - question: What types of financial products does Vault Core include?
-    answer: Vault Core includes a full array of financial products like transaction accounts, savings, loans, mortgages, and credit cards.
-  - question: What additional banking and financial services does Vault Core support?
-    answer: Vault Core supports Islamic banking and innovative products like buy-now-pay-later and wallets.
-  - question: What features does Vault Core offer for simulating financial products?
-    answer: Banks can simulate the performance of financial products using Vault Core's simulation features.
-  - question: What are the data management capabilities of Vault Core's real-time Ledger?
-    answer: Vault Core's real-time Ledger provides complete control over data management and supports complex banking operations.
-  - question: What functionalities do Vault Core's APIs provide?
-    answer: Vault Core's APIs provide real-time access to information in the Ledger.
-  - question: What deployment flexibility does Vault Core offer to banks?
-    answer: Vault Core can be deployed in the cloud provider of the bank's choice, offering flexibility in deployment options including SaaS, public, private, and hybrid cloud environments.
-  - question: What public cloud platforms support Vault Core deployments?
-    answer: Public cloud deployments of Vault Core are supported on platforms like Azure, AWS, GCP, and IBM.
-  - question: What options are available for private cloud deployments of Vault Core?
-    answer: Private cloud deployments can use Red Hat OpenShift with AWS Outposts, Azure Stack, or Google Anthos.      
-task_description: 'Provide detailed information on Thought Machine, a fintech company specializing in modernizing banking infrastructure with its Vault platform.'
+  - context: |
+      Thought Machine is a fintech company focused on modernizing banking infrastructure through its core banking platform, Vault.
+      Founded in 2014 by Paul Taylor, a former Google engineer. Goal: Transition banks from legacy systems to modern, cloud-based infrastructure.
+    questions_and_answers:
+      - question: |
+          What is the primary goal of Thought Machine?
+        answer: |
+          The primary goal is to transition banks from legacy systems to modern, cloud-based infrastructure.
+      - question: |
+          Who founded Thought Machine and when?
+        answer: |
+          Thought Machine was founded by Paul Taylor, a former Google engineer, in 2014.
+  - context: |
+      Vault: Thought Machine’s flagship core banking platform which is highly configurable and cloud-native. It uses smart contracts to define banking product logic
+      and is API-driven, enabling seamless integration with other services.
+    questions_and_answers:
+      - question: |
+          What are the key features of the Vault platform?
+        answer: |
+          Vault is highly configurable, cloud-native, uses smart contracts for product logic, and is API-driven for seamless integration.
+  - context: |
+      Thought Machine has a global presence with headquarters in the UK and operations across Europe, Asia, North America, Australasia, and the Middle East. It has been awarded as the best place
+      to work in New York City and is named among the world's most innovative fintechs.
+    questions_and_answers:
+      - question: |
+          Where is Thought Machine headquartered?
+        answer: |
+          Thought Machine is headquartered in the UK.
+      - question: |
+          In which regions does Thought Machine operate?
+        answer: |
+          Thought Machine operates in Europe, Asia, North America, Australasia, and the Middle East.
+  - context: |
+      Paul Taylor, founder and CEO of Thought Machine, is a former Google engineer with expertise in AI, speech technology, and machine learning. He has founded two companies
+      and holds a PhD in AI with teaching positions at Edinburgh and Cambridge Universities.
+    questions_and_answers:
+      - question: |
+          What is Paul Taylor's background?
+        answer: |
+          Paul Taylor is a former Google engineer with a PhD in AI and expertise in speech technology and machine learning. He has also founded two companies.
+  - context: |
+      Thought Machine's mission is to modernize banking through cutting-edge technology, eliminate legacy infrastructure problems, and run the world's banks using the best software practices.
+    questions_and_answers:
+      - question: |
+          What is Thought Machine's mission?
+        answer: |
+          To modernize banking through cutting-edge technology and eliminate problems caused by legacy infrastructure.
+  - context: |
+      Vault Core and its Universal Product Engine supports multi-currency accounts, bundled products, and legacy platform migration, allowing for safe customer migration without disruption.
+    questions_and_answers:
+      - question: |
+          What does Vault Core's Universal Product Engine support?
+        answer: |
+          It supports multi-currency accounts, bundled products, and legacy platform migration.
+  - context: |
+      Smart contracts in Vault Core provide customizable logic for rapid innovation and design of new financial products without platform dependence, with a pre-built Product Library.
+    questions_and_answers:
+      - question: |
+          How do smart contracts benefit banks using Vault Core?
+        answer: |
+          They provide customizable logic for rapid innovation and design of new financial products without platform dependence.
+  - context: |
+      Banks can simulate financial product performance before launch, enhancing customer experience by allowing them to simulate the performance of the products they are purchasing.
+    questions_and_answers:
+      - question: |
+          What is the purpose of simulation in Vault Core?
+        answer: |
+          To allow banks and customers to simulate financial product performance before launch.
+  - context: |
+      Vault Core’s Ledger provides real-time data management and control with data streaming for AI and reporting, supporting multiple currencies and banking complexity on a single platform.
+    questions_and_answers:
+      - question: |
+          What does Vault Core’s Ledger support?
+        answer: |
+          It supports real-time data management and control, multiple currencies, and banking complexity on a single platform.
+  - context: |
+      Ledger connectivity in Vault Core offers robust real-time reporting and access to data via a Streaming API, built to support any bank and any product.
+    questions_and_answers:
+      - question: |
+          What features does the Ledger's connectivity offer?
+        answer: |
+          It offers robust real-time reporting and access to data via a Streaming API.
+  - context: |
+      Vault Core APIs expose all functionality through standard APIs for real-time access, integration, and granular control.
+    questions_and_answers:
+      - question: |
+          What do Vault Core APIs provide?
+        answer: |
+          They provide real-time access to functionality, integration, and granular control.
+  - context: |
+      Vault Core can be deployed in public, private, or hybrid cloud environments, with a SaaS option for fully managed cloud infrastructure.
+    questions_and_answers:
+      - question: |
+          What are the hosting options for Vault Core?
+        answer: |
+          Vault Core can be deployed in public, private, or hybrid cloud environments, and as a SaaS.
+  - context: |
+      SaaS deployment is popular among agile banks and fintechs, while bank-hosted options include public, private, and hybrid clouds, supported on platforms like Azure, AWS, GCP, and Red Hat OpenShift.
+    questions_and_answers:
+      - question: |
+          What are the deployment models for Vault Core?
+        answer: |
+          SaaS for agile banks and fintechs, and bank-hosted options include public, private, and hybrid clouds.
+document_outline: |
+  Detailed breakdown and analysis of Thought Machine's Vault platform and its global operations.
 document:
   repo: https://github.com/vitalijneverkevic/thoughtmachine.git
   commit: 328f91d1b4d0ed21e95928895f2ee9f973d70d8b
