@@ -96,6 +96,7 @@ document_outline: |
   Detailed breakdown and analysis of Thought Machine's Vault platform and its global operations.
 document:
   repo: https://github.com/vitalijneverkevic/thoughtmachine.git
-  commit: 89403775d98065dab0afaa006f45345ab00e2060
+  commit: c3657154a7a4701c801411a07988e8bc73f388ba
   patterns:
     - data.md
+
